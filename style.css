@@ -1,0 +1,205 @@
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f4f4f4;
+}
+
+header {
+    Background-color: teal;
+    background-size: cover;
+    background-position: center;
+    Color: rgba(3, 6, 7, 0.877);
+    padding: 10px 10px;
+    Text-align: center;
+
+    
+}
+
+header img{
+    background-image: url(./images/logo.jpeg);
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+}
+
+header h1 {
+    Margin: 0;
+}
+
+Nav ul {
+    List-style-type: none;
+    Padding: 0;
+}
+
+Nav ul li {
+    Display: inline;
+    Margin: 0 15px;
+}
+
+Nav ul li a {
+    Color: white;
+    Text-decoration: none;
+}
+
+.banner 
+ {
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url('./images/tick1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 10px 0;
+}
+
+footer {
+    Color: white;
+    Padding: 10px 0;
+    text-align: center;
+    Bottom: 0;
+    background-color:teal;
+    Width: 100%;
+}
+
+div {
+    Padding: 20px;
+    background-color: rgba(121, 176, 173, 0.376);
+    padding: 10px 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:black;
+    
+}
+
+
+
+
+Form {
+    Max-width: 400px;
+    Margin: 0 auto;
+}
+
+Form label {
+    Display: block;
+    Margin-top: 10px;
+}
+
+Form input, form textarea {
+    Width: 100%;
+    Padding: 8px;
+    Margin-top: 5px;
+    Margin-bottom: 15px;
+    Border: 1px solid #71cef5;
+}
+
+Form button {
+    Background-color: #333;
+    Color: rgb(74, 189, 204);
+    Padding: 10px;
+    Border: none;
+    Cursor: pointer;
+}
+
+Form button:hover {
+    Background-color: #555;
+}
+
+
+
+
+@media (max-width: 768px) {
+    Nav ul li {
+        Display: block;
+        Margin: 5px 0;
+    }
+}
+
+
+
+Nav ul li a:hover {
+    text-decoration: solid;
+    text-align: center;
+    color: teal;
+    background: #9bc2ce;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+.about-us{
+    height: 400px;
+    width: 95%;
+    overflow: hidden;
+    margin: auto;
+}
+.column{
+    width: 47%;
+    float: left;
+    color:white;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/tick2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.column-1{
+    width: 47%;
+    color: white;
+    float: right;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(./images/tick3.jpeg);
+    background-repeat: no-repeat;
+}
+
+h3{
+    text-align: center;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    text-transform: capitalize;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.social-button{
+    display: inline-block;
+    padding: 10px;
+    color: rgb(236, 236, 243);
+    margin: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.whatsapp{
+    background-color: #25d366;
+}
+.youtube{
+    background-color: #ff0000;
+}
+
+.social-button:hover{
+    color: rgb(14, 17, 234);
+}
+
+.others{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+.other_services{
+    text-align: left;
+}
+
+
+
+
+
